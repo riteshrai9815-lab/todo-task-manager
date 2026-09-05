@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>To-Do Task Manager</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <main class="app">
+
+        <h1>To-Do Task Manager</h1>
+
+        <p class="subtitle">
+            Organize your daily tasks and stay productive.
+        </p>
+
+        <div class="task-input">
+            <input
+                type="text"
+                id="task-input"
+                placeholder="Enter a new task..."
+            >
+            
+
+            <select id="priority-select">
+                <option value="low">Low</option>
+                <option value="medium" selected>Medium</option>
+                <option value="high">High</option>
+            </select>
+
+
+            <button id="add-task-btn">
+                Add Task
+            </button>
+        </div>
+
+        <div class="filters">
+            <button class="filter active" data-filter="all">
+                All
+            </button>
+
+            <button class="filter" data-filter="active">
+                Active
+            </button>
+
+            <button class="filter" data-filter="completed">
+                Completed
+            </button>
+        </div>
+
+        <ul id="task-list"></ul>
+
+        <div class="task-footer">
+            <span id="task-count">0 tasks</span>
+
+            <button id="clear-completed">
+                Clear Completed
+            </button>
+        </div>
+
+    </main>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
