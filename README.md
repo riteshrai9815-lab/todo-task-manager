@@ -41,3 +41,18 @@ todo-task-manager/
 ├── style.css
 ├── script.js
 └── README.md
+
+## Run Locally
+
+1. Clone the repository.
+2. Open the project folder in VS Code.
+3. Open the project using Live Server.
+4. Open the application in your browser.
+
+## Live Demo
+
+[Open the To-Do Task Manager](https://riteshrai9815-lab.github.io/todo-task-manager/)
+
+## GitHub Repository
+
+[View the source code](https://github.com/riteshrai9815-lab/todo-task-manager)
